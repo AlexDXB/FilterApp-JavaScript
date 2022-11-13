@@ -1,0 +1,61 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  display: flex;
+  padding: 3rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.search {
+  height: 1.5rem;
+  padding: 10px;
+  border: 1px solid grey;
+}
+h1 {
+  font-size: 2rem;
+  color: #555;
+  font-weight: 300;
+}
+.cats {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+.cat {
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 300;
+  padding: 5px;
+}
+
+.right {
+  flex: 4;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  gap: 20px;
+}
+img {
+  width: 150px;
+  height: 250px;
+  margin-bottom: 20px;
+  padding: 5px;
+  object-fit: contain;
+}
+.name {
+  font-weight: 300;
+}
